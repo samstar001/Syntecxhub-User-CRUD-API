@@ -16,14 +16,14 @@ const app = express();
 app.use(express.json());
 
 // Mount all user-related routes
-app.use("/appi/users", userRoutes);
+app.use("/api/users", userRoutes);
 
 app.get("/", (req, res) => {
   res.send("User CRUD API is running...");
 });
 
 // Centralized error-handling which must be registered after all routes
-app.user(errorHandler);
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
