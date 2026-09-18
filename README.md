@@ -44,8 +44,8 @@ user-crud-api/
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/samstar001/Syntecxhub-User-CRUD-API.git
+cd samstar001/Syntecxhub-User-CRUD-API
 npm install
 ```
 
